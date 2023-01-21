@@ -1,0 +1,21 @@
+{
+  "chat_id": "123456789",
+  "text": "Привет! Ты кто?",
+  "reply_markup": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "Мастер",
+          "callback_data": "/my_master_profile"
+        }
+      ],
+      [
+        {
+          "text": "Ресторан",
+          "callback_data": "/my_customer_profile"
+        }
+      ]
+    ]
+  },
+  "method": "sendmessage"
+}

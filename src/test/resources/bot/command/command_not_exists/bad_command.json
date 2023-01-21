@@ -1,0 +1,28 @@
+{
+  "update_id": 407364160,
+  "message": {
+    "message_id": 1665,
+    "from": {
+      "id": 123456789,
+      "first_name": "first_name",
+      "is_bot": false,
+      "username": "username",
+      "language_code": "en"
+    },
+    "date": 1645189873,
+    "chat": {
+      "id": 123456789,
+      "type": "private",
+      "first_name": "first_name",
+      "username": "username"
+    },
+    "text": "/sssss",
+    "entities": [
+      {
+        "type": "bot_command",
+        "offset": 0,
+        "length": 6
+      }
+    ]
+  }
+}

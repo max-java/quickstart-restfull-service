@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: ${db.url}
+    username: ${db.username}
+    password: ${db.password}
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  data:
+    rest:
+      detection-strategy: annotated
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher #need to fix swagger NPE
+server:
+  port: ${port}
+logging:
+  level:
+    project:
+      user:
+        UserClient: DEBUG
